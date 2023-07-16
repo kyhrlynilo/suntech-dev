@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "SunTech.API.Listener": {
+      "commandName": "Project"
+    }
+  }
+}
