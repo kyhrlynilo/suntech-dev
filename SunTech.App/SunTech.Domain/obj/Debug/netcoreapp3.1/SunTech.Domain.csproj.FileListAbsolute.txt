@@ -1,0 +1,9 @@
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Domain\bin\Debug\netcoreapp3.1\SunTech.Domain.deps.json
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Domain\bin\Debug\netcoreapp3.1\SunTech.Domain.dll
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Domain\bin\Debug\netcoreapp3.1\SunTech.Domain.pdb
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Domain\obj\Debug\netcoreapp3.1\SunTech.Domain.AssemblyInfoInputs.cache
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Domain\obj\Debug\netcoreapp3.1\SunTech.Domain.AssemblyInfo.cs
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Domain\obj\Debug\netcoreapp3.1\SunTech.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Domain\obj\Debug\netcoreapp3.1\SunTech.Domain.dll
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Domain\obj\Debug\netcoreapp3.1\SunTech.Domain.pdb
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Domain\obj\Debug\netcoreapp3.1\SunTech.Domain.csprojAssemblyReference.cache

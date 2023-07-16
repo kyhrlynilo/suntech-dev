@@ -1,0 +1,14 @@
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Infrastructure\bin\Debug\netcoreapp3.1\SunTech.Domain.dll
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Infrastructure\obj\Debug\netcoreapp3.1\SunTech.Infrastructure.csprojAssemblyReference.cache
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Infrastructure\obj\Debug\netcoreapp3.1\SunTech.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Infrastructure\obj\Debug\netcoreapp3.1\SunTech.Infrastructure.AssemblyInfo.cs
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Infrastructure\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Infrastructure\bin\Debug\netcoreapp3.1\Cosmos.CRTCompat.dll
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Infrastructure\bin\Debug\netcoreapp3.1\SunTech.Infrastructure.deps.json
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Infrastructure\bin\Debug\netcoreapp3.1\SunTech.Infrastructure.dll
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Infrastructure\bin\Debug\netcoreapp3.1\SunTech.Infrastructure.pdb
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Infrastructure\bin\Debug\netcoreapp3.1\SunTech.Domain.pdb
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Infrastructure\obj\Debug\netcoreapp3.1\SunTech.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Infrastructure\obj\Debug\netcoreapp3.1\SunTech.Infrastructure.csproj.CopyComplete
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Infrastructure\obj\Debug\netcoreapp3.1\SunTech.Infrastructure.dll
+C:\Users\kyleh\source\repos\SunTech.App\SunTech.Infrastructure\obj\Debug\netcoreapp3.1\SunTech.Infrastructure.pdb

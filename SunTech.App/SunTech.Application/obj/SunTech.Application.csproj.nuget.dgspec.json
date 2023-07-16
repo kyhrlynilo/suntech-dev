@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Application\\SunTech.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Application\\SunTech.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Application\\SunTech.Application.csproj",
+        "projectName": "SunTech.Application",
+        "projectPath": "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Application\\SunTech.Application.csproj",
+        "packagesPath": "C:\\Users\\kyleh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kyleh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://packages.nuget.org/v1/FeedService.svc/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Domain\\SunTech.Domain.csproj": {
+                "projectPath": "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Domain\\SunTech.Domain.csproj"
+              },
+              "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Infrastructure\\SunTech.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Infrastructure\\SunTech.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Domain\\SunTech.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Domain\\SunTech.Domain.csproj",
+        "projectName": "SunTech.Domain",
+        "projectPath": "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Domain\\SunTech.Domain.csproj",
+        "packagesPath": "C:\\Users\\kyleh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kyleh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://packages.nuget.org/v1/FeedService.svc/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Infrastructure\\SunTech.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Infrastructure\\SunTech.Infrastructure.csproj",
+        "projectName": "SunTech.Infrastructure",
+        "projectPath": "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Infrastructure\\SunTech.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\kyleh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kyleh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://packages.nuget.org/v1/FeedService.svc/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Domain\\SunTech.Domain.csproj": {
+                "projectPath": "C:\\Users\\kyleh\\source\\repos\\SunTech.App\\SunTech.Domain\\SunTech.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Azure.Messaging.EventGrid": {
+              "target": "Package",
+              "version": "[4.17.0, )"
+            },
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.26.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
