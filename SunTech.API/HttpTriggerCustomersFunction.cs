@@ -60,26 +60,24 @@ namespace SunTech.API
 
                 case "GET":
 
-                    string param = req.Query["id"];
-
                     if (req.Query != null && req.Query.Count > 0)
                     {
                         if (req.Query.ContainsKey("id"))
                         {
-                            new GetCustomerQuery(_ceBroker, param);
+                            new GetCustomerQuery(_ceBroker, req.Query["id"]);
                             return new OkObjectResult(_ceHandler.GetCustomer());
                         }
-                        else
+                        
+                        if (req.Query.ContainsKey("count"))
                         {
                             new GetCustomerCountQuery(_ceBroker);
                             return new OkObjectResult(_ceHandler.GetCount());
                         }
                     }
-                    else
-                    {
-                        new GetCustomersQuery(_ceBroker);
-                        return new OkObjectResult(_ceHandler.GetCustomers());
-                    }
+                   
+                    new GetCustomersQuery(_ceBroker);
+                    return new OkObjectResult(_ceHandler.GetCustomers());
+                    
 
                 default:
                     break;
