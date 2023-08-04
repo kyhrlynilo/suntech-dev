@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/SunTech.API/Properties/serviceDependencies.suntech-api-dev - Zip Deploy.json
+/SunTech.API/Properties/ServiceDependencies/suntech-api-dev - Zip Deploy
+/SunTech.API.Listener/Properties/serviceDependencies.suntech-api-listener-dev - Zip Deploy.json
+/SunTech.API.Listener/Properties/ServiceDependencies/suntech-api-listener-dev - Zip Deploy
