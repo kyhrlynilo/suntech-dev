@@ -79,7 +79,7 @@ namespace SunTech.Application.EventHandlers
                 {
                     var data = new DeleteCustomerCommandHandler(_cdbService, _dbName, _customerContainerName).Handle((OnCustomerDeletedEvent)e);
 
-                    _httpClient.SendMessageToEventGrid("Customer", "Updated", data);
+                    _httpClient.SendMessageToEventGrid("Customer", "Deleted", data);
 
                     new CalculateCustomerSummaryCommandHandler(_cdbService).Handle(_dbName, _customerContainerName, _customerSummaryContainerName);
                 }

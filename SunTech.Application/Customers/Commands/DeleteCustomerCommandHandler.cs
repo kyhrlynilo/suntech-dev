@@ -22,7 +22,11 @@ namespace SunTech.Application.Customers.Commands
 
         public Customer Handle(OnCustomerDeletedEvent e)
         {
-            return _cdbService.DeleteItem<Customer>(e.id, _dbName, _containerName).GetAwaiter().GetResult();
+            var customer =  _cdbService.GetItem<Customer>(e.id, _dbName, _containerName).GetAwaiter().GetResult();
+
+            _cdbService.DeleteItem<Customer>(e.id, _dbName, _containerName).GetAwaiter().GetResult();
+
+            return customer;
         }
     }
 }
