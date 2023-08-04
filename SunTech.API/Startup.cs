@@ -19,14 +19,15 @@ namespace SunTech.API
     {
         public void Configure(IWebJobsBuilder builder)
         {
-            string cosmosDbUri = "";
-            string cosmosDbKey = "";
 
-            string dbName = "";
-            string containerName = "";
-            string customerSummaryContainerName = "";
+            string cosmosDbUri = Environment.GetEnvironmentVariable("cosmosDbUri");
+            string cosmosDbKey = Environment.GetEnvironmentVariable("cosmosDbKey");
 
-            string listenerApiUri = "";
+            string dbName = Environment.GetEnvironmentVariable("dbName");
+            string containerName = Environment.GetEnvironmentVariable("containerName");
+            string customerSummaryContainerName = Environment.GetEnvironmentVariable("customerSummaryContainerName");
+
+            string listenerApiUri = Environment.GetEnvironmentVariable("listenerApiUri");
 
 
             builder.Services.AddScoped<ICosmosDbService>(x => new CosmosDbService(cosmosDbUri, cosmosDbKey));

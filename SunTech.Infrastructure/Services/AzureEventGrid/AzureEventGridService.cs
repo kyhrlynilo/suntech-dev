@@ -20,7 +20,6 @@ namespace SunTech.Infrastructure.Services.AzureEventGrid
         {
 
             EventGridEvent eventGridEvent = new EventGridEvent(subject, verb, "1.0", JsonConvert.SerializeObject(jsonStr));
-            eventGridEvent.Topic = "customers";
 
             await _publisherClient.SendEventAsync(eventGridEvent);
         }

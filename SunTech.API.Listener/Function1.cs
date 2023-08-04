@@ -22,8 +22,8 @@ namespace SunTech.API.Listener
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
             CustomerEventGridMessage request = JsonConvert.DeserializeObject<CustomerEventGridMessage>(requestBody);
 
-            string uri = "";
-            string key = "";
+            string uri = Environment.GetEnvironmentVariable("uri");
+            string key = Environment.GetEnvironmentVariable("key");
 
             IAzureEventGridService _eventService = new AzureEventGridService(uri, key);
 
